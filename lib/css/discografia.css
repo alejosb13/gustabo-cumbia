@@ -1,0 +1,61 @@
+div#content {
+    background: #221f22;
+}
+
+.wrapper-disc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.wrapper-disc:hover {
+    background: #ffffff42;
+}
+
+.padre-disc {
+	position: relative;
+	cursor:pointer;
+}
+
+.wrapper-disc .texto {
+    position: absolute;
+    left: 200%;
+    width: 100%;
+    font-family: futura;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+    transition: all 1s;
+    /* text-align: center; */
+    /* width: 100%; */
+    /* padding: 0px 30px; */
+}
+
+.wrapper-disc:hover .texto {
+    text-align: center; 
+    width: 100%; 
+	padding: 0px 30px;
+	left: 0%;
+}
+
+
+.wrapper-disc .icon {
+	display: none;
+	top: 15%;
+	width: 54px;
+	height: 54px;
+	background-image: url(../images/iconos/play.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -27px;
+}
+.wrapper-disc:hover .icon {
+	display: block
+}

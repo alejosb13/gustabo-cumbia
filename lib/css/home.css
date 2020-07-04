@@ -1,0 +1,83 @@
+.home {
+    display: flex;
+    height: 100%;
+}
+
+.home > .container-fluid {
+    display: flex;
+    /* height: 100%; */
+    padding: 0px;
+    background-image: url(../images/profile/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home > .container-fluid > .row {
+    display: flex;
+    /* height: 100%; */
+    margin: 0px;
+    width: 100%;
+}
+
+.home > .container-fluid > .row > col-md-3 {
+    height: 100%;
+    display: flex;
+}
+
+.home > .container-fluid > .row >.col-md-3 {
+    display: flex;
+    padding: 0px;
+}
+
+
+.home > .container-fluid > .row >.col-md-3 .bgChange {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    transition: 0.5s padding;
+    border-right: 1px solid #111111;
+    background: -prefix-linear-gradient(transparent, transparent, black 144%); 
+
+/* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+    background: linear-gradient(transparent, transparent, black 144%);
+}
+
+.home > .container-fluid > .row >.col-md-3 .bgChange > span {
+/*     font-family: Futura;
+    font-weight: normal; */
+    font-size: 30px;
+	color: #CCA418;
+	font-weight: 600;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.home > .container-fluid > .row >.col-md-3 .bgChange:hover {
+    padding-bottom: 100px;
+}
+
+
+@media (max-width: 768px) {
+
+	.home > .container-fluid {
+		background: none !important;
+	}
+	.home > .container-fluid > .row >.col-md-3 {
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		background-position: center;
+	}
+	.home > .container-fluid > .row >.col-md-3:nth-child(1){background-image: url(../images/profile/1.jpg);background-position-x: 70%;}
+	.home > .container-fluid > .row >.col-md-3:nth-child(2){background-image: url(../images/profile/2.jpg);background-position-x: 27%;}
+	.home > .container-fluid > .row >.col-md-3:nth-child(3){background-image: url(../images/profile/3.jpg);}
+	.home > .container-fluid > .row >.col-md-3:nth-child(4){
+		background-image: url(../images/profile/4.jpg);
+	}
+
+	.home > .container-fluid > .row >.col-md-3 .bgChange {
+		border: none;
+	}
+}

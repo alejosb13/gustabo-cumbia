@@ -1,0 +1,42 @@
+div#content {
+    background: #221f22;
+}
+.bg-sobremi img{
+	width: 100%;
+	display: block;
+	margin-top: -140px;
+}
+.text-info-conten * {
+	font-family: Futura !important;
+	text-align: justify;
+	color: #fff;
+}
+
+.text-info-conten {
+    padding: 0px;
+}
+
+
+.img-left{
+	width: 100%;
+	max-width: 601px;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 35px;
+}
+.text-info-conten h1,
+.text-info-conten h2,
+.text-info-conten h3,
+.text-info-conten h4,
+.text-info-conten h5,
+.text-info-conten p{
+   padding: 0px 40px;
+}
+
+@media (max-width: 1050px) {
+	.img-left{
+		float: none;
+		margin: 0px auto;
+		max-width: none;
+	}
+}
