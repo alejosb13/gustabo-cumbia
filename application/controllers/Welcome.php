@@ -135,6 +135,40 @@ class Welcome extends CI_Controller {
 		$data["js"] = array(
 			base_url("vendor/fancybox/jquery.fancybox.min.js")
 		); 
+
+/* 		{
+			src  : '<?php echo base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg"); ?>',
+			opts : {
+				caption : 'First caption',
+				thumb   : '<?php echo base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg"); ?>'
+			}
+		},
+		{
+			src  : '<?php echo base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg"); ?>',
+			opts : {
+				caption : 'Second caption',
+				thumb   : '<?php echo base_url("lib/images/profile/2.jpg"); ?>'
+			}
+		} */
+
+		$data["albun"] = array(
+			array(
+				"src" => base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg"),
+				"opts" => array(
+					"caption" => 'First caption',
+					"thumb"   =>  base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg")
+				)
+			),
+			array(
+				"src" => base_url("lib/images/profile/1.jpg"),
+				"opts" => array(
+					"caption" => 'First caption',
+					"thumb"   =>  base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg")
+				)
+			),
+		); 
+		
+
 		$this->load->view('galeria_view',$data);
 	}
 
