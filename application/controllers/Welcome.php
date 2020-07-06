@@ -39,30 +39,9 @@ class Welcome extends CI_Controller {
 		$data["css"] = array(
 			base_url("lib/css/about.css")
 		);
- 
-	//	$data["js"] = array(
-			/* base_url("vendor/nicescroll/jquery.nicescroll.iframehelper.min.js"), */
-/* 			base_url("vendor/nicescroll/jquery.nicescroll.min.js"),
-			base_url("lib/js/about.js") */
-	//	);
 
 		$this->load->view('about_view',$data);
 	}
-
-	public function about_me()
-	{
-		$data = array();
-		$data["css"] = array(
-			base_url("lib/css/about.css")
-		);
- 
-		$data["js"] = array(
-			base_url("lib/js/about.js")
-		); 
-
-		$this->load->view('about_view',$data);
-	}
-
 
 	public function contacto()
 	{
@@ -77,6 +56,7 @@ class Welcome extends CI_Controller {
 
 		$this->load->view('contacto_view',$data);
 	}
+
 	public function list_noticias()
 	{
 		$data = array();
@@ -135,21 +115,6 @@ class Welcome extends CI_Controller {
 		$data["js"] = array(
 			base_url("vendor/fancybox/jquery.fancybox.min.js")
 		); 
-
-/* 		{
-			src  : '<?php echo base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg"); ?>',
-			opts : {
-				caption : 'First caption',
-				thumb   : '<?php echo base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg"); ?>'
-			}
-		},
-		{
-			src  : '<?php echo base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg"); ?>',
-			opts : {
-				caption : 'Second caption',
-				thumb   : '<?php echo base_url("lib/images/profile/2.jpg"); ?>'
-			}
-		} */
 
 		$data["albun"] = array(
 			array(

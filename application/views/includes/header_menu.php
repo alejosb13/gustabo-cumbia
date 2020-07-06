@@ -12,7 +12,7 @@
 				<a href="<?php echo base_url(); ?>">Inicio</a>
 			</li>
 			<li>
-				<a href="<?php echo base_url("about-me"); ?>">Sobre mí</a>
+				<a href="<?php echo base_url("sobre-mi"); ?>">Sobre mí</a>
 			</li>
 <!-- 			<li>
 				<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
@@ -33,6 +33,9 @@
 			</li>
 			<li>
 				<a href="<?php echo base_url("musica"); ?>">Música</a>
+			</li>
+			<li>
+				<a href="<?php echo base_url("galeria"); ?>">Galería</a>
 			</li>
 <!-- 			<li>
 				<a href="#">Social media</a>
@@ -58,7 +61,7 @@
 		</div>
 		<div class="cont-lenguaje">
 			<div class="lenguaje">
-				<span class="leng">ES</span>
+				<a class="leng" href="#">ES</a>
 				<a class="leng" href="#">EN</a>
 			</div>
 			<div class="cont-redes">

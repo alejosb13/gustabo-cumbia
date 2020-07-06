@@ -20,10 +20,21 @@ div#content {
 .img-left{
 	width: 100%;
 	max-width: 601px;
+	margin-left: 40px;
 	float: left;
 	margin-right: 40px;
 	margin-bottom: 35px;
 }
+
+.img-right{
+	width: 100%;
+	max-width: 550px;
+	float: right;
+	margin-left: 23px;
+	margin-bottom: 15px;
+	margin-right: 40px;
+}
+
 .text-info-conten h1,
 .text-info-conten h2,
 .text-info-conten h3,
@@ -38,5 +49,13 @@ div#content {
 		float: none;
 		margin: 0px auto;
 		max-width: none;
+	}
+
+	.img-right{
+		float: none;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 30px;
+		margin-top: 30px;
 	}
 }

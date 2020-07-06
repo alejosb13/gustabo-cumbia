@@ -21,4 +21,4 @@
 </head>
 
 <body>
-<audio autoplay autobuffer src="<?php echo base_url("lib/audio/test.mp3"); ?>"  ></audio> 
+

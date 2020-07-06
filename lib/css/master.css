@@ -220,9 +220,11 @@ a.article:hover {
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+    font-family: 'Shadows Into Light', cursive;
     color: #fff;
     display: block;
     margin-bottom: 10px;
+    letter-spacing: 2px;
 }
 .menu:hover .McButton b {
     color: #cccc;

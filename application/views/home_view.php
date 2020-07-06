@@ -1,11 +1,11 @@
 <?php $this->load->view('includes/header_view.php'); ?>
 <?php $this->load->view('includes/header_menu.php'); ?>
-
+<audio autoplay autobuffer src="<?php echo base_url("lib/audio/que-vuelva.mpeg"); ?>"  ></audio> 
 <section class="principal home">
 	<div class="container-fluid image-change">
 		<div class="row">
 			<div class="col-md-3">
-				<div class="bgChange" data-link="<?php echo base_url("about-me") ?>" data-image="<?php echo base_url("lib/images/profile/1.jpg") ?>">
+				<div class="bgChange" data-link="<?php echo base_url("sobre-mi") ?>" data-image="<?php echo base_url("lib/images/profile/1.jpg") ?>">
 					<span class="bgtexto">Sobre mí</span>
 				</div>
 			</div>
@@ -21,7 +21,7 @@
 			</div>
 			<div class="col-md-3">
 				<div class="bgChange" data-link="<?php echo base_url("galeria") ?>" data-image="<?php echo base_url("lib/images/profile/4.jpg") ?>">
-					<span class="bgtexto">Gelería</span>
+					<span class="bgtexto">Galería</span>
 				</div>
 			</div>
 		</div>
