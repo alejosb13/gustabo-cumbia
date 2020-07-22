@@ -116,25 +116,32 @@ class Welcome extends CI_Controller {
 			base_url("vendor/fancybox/jquery.fancybox.min.js")
 		); 
 
-		$data["albun"] = array(
-			array(
-				"src" => base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg"),
-				"opts" => array(
-					"caption" => 'First caption',
-					"thumb"   =>  base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg")
-				)
-			),
-			array(
-				"src" => base_url("lib/images/profile/1.jpg"),
-				"opts" => array(
-					"caption" => 'First caption',
-					"thumb"   =>  base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg")
-				)
-			),
-		); 
-		
+		$data["radio"]			 = $this->album_data_direct_name("lib/images/radio/",scandir("lib/images/radio/"));
+		$data["television"]	 	 = $this->album_data_direct_name("lib/images/television/",scandir("lib/images/television/"));
+		$data["varias"]	 		 = $this->album_data_direct_name("lib/images/varias/",scandir("lib/images/varias/"));
+		$data["algunas_foticos"] = $this->album_data_direct_name("lib/images/algunas_foticos/",scandir("lib/images/algunas_foticos/"));
 
 		$this->load->view('galeria_view',$data);
+	}
+
+	private function album_data_direct_name($directorio,$fichero){
+		$albun = array();
+		foreach ($fichero as $key => $value) {
+			if ('.' !== $value && '..' !== $value){
+				$file_data = pathinfo($directorio.$value);
+
+				$result = array(
+							"src" => base_url($directorio.$value),
+							"opts" => array(
+									"caption" => $file_data["filename"],
+									"thumb"   =>  base_url($directorio.$value)
+								)
+							);
+				array_push($albun,$result);
+			}
+		}
+
+		return $albun;
 	}
 
 	public function enviar(){
