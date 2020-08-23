@@ -8,10 +8,10 @@
 		<ul class="list-unstyled components">
 			<!-- <p>Dummy Heading</p> -->
 
-			<li class="active">
+			<li class="<?php echo ($section == "Inicio") ? "active":"" ; ?>">
 				<a href="<?php echo base_url(); ?>">Inicio</a>
 			</li>
-			<li>
+			<li class="<?php echo ($section == "Sobre mi") ? "active":"" ; ?>">
 				<a href="<?php echo base_url("sobre-mi"); ?>">Sobre mí</a>
 			</li>
 <!-- 			<li>
@@ -28,13 +28,13 @@
 					</li>
 				</ul>
 			</li> -->
-			<li>
+			<li class="<?php echo ($section == "Discografia") ? "active":"" ; ?>">
 				<a href="<?php echo base_url("discografia"); ?>">Discografia</a>
 			</li>
-			<li>
+			<li class="<?php echo ($section == "Musica") ? "active":"" ; ?>">
 				<a href="<?php echo base_url("musica"); ?>">Música</a>
 			</li>
-			<li>
+			<li class="<?php echo ($section == "Galeria") ? "active":"" ; ?>">
 				<a href="<?php echo base_url("galeria"); ?>">Galería</a>
 			</li>
 <!-- 			<li>
@@ -61,8 +61,8 @@
 		</div>
 		<div class="cont-lenguaje">
 			<div class="lenguaje">
-				<a class="leng" href="#">ES</a>
-				<a class="leng" href="#">EN</a>
+				<a class="leng" href="<?php echo base_url(); ?>">ES</a>
+				<a class="leng" href="<?php echo base_url("/eng"); ?>">EN</a>
 			</div>
 			<div class="cont-redes">
 				<a href="https://www.facebook.com/gustavocumbiaurbana/"><img src="<?php echo base_url()."lib/images/iconos/facebook.png"; ?>" alt=""></a>

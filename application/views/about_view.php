@@ -4,7 +4,6 @@
 <section class="principal home">
 	<div class="container-fluid image-change">
 		<div class="row">
-
 			<div class="col-md-12 text-info-conten">
 				<img class="img-left"  src="<?php echo base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg") ?>" alt="">
 					<h2 style="font-weight: 800;margin-top: 35px;color: #CCA418; font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">GUSTAVO QUINTERO</h2>

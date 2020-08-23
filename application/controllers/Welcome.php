@@ -12,6 +12,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$data = array();
+		$data["section"] = "Inicio";
 		$data["css"] = array(
 			base_url("lib/css/home.css")
 		);
@@ -36,6 +37,7 @@ class Welcome extends CI_Controller {
 	public function sobre_mi()
 	{
 		$data = array();
+		$data["section"] = "Sobre mi";
 		$data["css"] = array(
 			base_url("lib/css/about.css")
 		);
@@ -84,6 +86,7 @@ class Welcome extends CI_Controller {
 	public function discografia()
 	{
 		$data = array();
+		$data["section"] = "Discografia";
 		$data["css"] = array(
 			base_url("lib/css/discografia.css")
 		);
@@ -97,6 +100,7 @@ class Welcome extends CI_Controller {
 	public function musica()
 	{
 		$data = array();
+		$data["section"] = "Musica";
 		$data["css"] = array(
 			base_url("lib/css/musica.css")
 		);
@@ -105,11 +109,21 @@ class Welcome extends CI_Controller {
 		$this->load->view('musica_view',$data);
 	}
 
+	public function gale(){
+		$file_data = pathinfo("lib/audio/que-vuelva.mpeg");
+		
+		echo "<pre>";
+		print_r ($file_data);
+		echo "</pre>";
+		
+	}
 	public function galeria()
 	{
 		$data = array();
+		$data["section"] = "Galeria";
 		$data["css"] = array(
-			base_url("vendor/fancybox/jquery.fancybox.min.css")
+			base_url("vendor/fancybox/jquery.fancybox.min.css"),
+			base_url("lib/css/galeria.css")
 		);
  
 		$data["js"] = array(
@@ -119,12 +133,13 @@ class Welcome extends CI_Controller {
 		$data["radio"]			 = $this->album_data_direct_name("lib/images/radio/",scandir("lib/images/radio/"));
 		$data["television"]	 	 = $this->album_data_direct_name("lib/images/television/",scandir("lib/images/television/"));
 		$data["varias"]	 		 = $this->album_data_direct_name("lib/images/varias/",scandir("lib/images/varias/"));
-		$data["algunas_foticos"] = $this->album_data_direct_name("lib/images/algunas_foticos/",scandir("lib/images/algunas_foticos/"));
+		$data["algunas_foticos"] = $this->album_data_direct_name("lib/images/algunas_foticos/",scandir("lib/images/algunas_foticos/"),FALSE);
+		$data["videos_varios"] 	= $this->album_data_direct_name("lib/videos/varios/",scandir("lib/videos/varios/"));
 
 		$this->load->view('galeria_view',$data);
 	}
 
-	private function album_data_direct_name($directorio,$fichero){
+	private function album_data_direct_name($directorio,$fichero,$caption = true){
 		$albun = array();
 		foreach ($fichero as $key => $value) {
 			if ('.' !== $value && '..' !== $value){
@@ -133,7 +148,7 @@ class Welcome extends CI_Controller {
 				$result = array(
 							"src" => base_url($directorio.$value),
 							"opts" => array(
-									"caption" => $file_data["filename"],
+									"caption" => ($caption) ? $file_data["filename"] : "",
 									"thumb"   =>  base_url($directorio.$value)
 								)
 							);
