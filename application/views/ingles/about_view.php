@@ -1,47 +1,80 @@
-<?php $this->load->view('ingles/includes/header_view.php'); ?>
-<?php $this->load->view('ingles/includes/header_menu.php'); ?>
+<?php $this->load->view('ingles/includes/header_view'); ?>
+<?php $this->load->view('ingles/includes/header_menu'); ?>
 
 <section class="principal home">
 	<div class="container-fluid image-change">
 		<div class="row">
 			<div class="col-md-12 text-info-conten">
 				<img class="img-left"  src="<?php echo base_url("lib/images/profile/GUSTAVO_QUINTERO.jpg") ?>" alt="">
-					<h2 style="font-weight: 800;margin-top: 35px;color: #CCA418; font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">GUSTAVO QUINTERO</h2>
-					<p>Hijo de Willy Quintero y Nancy Herrera lleva en sus venas el sabor de la música Tropical, desde muy pequeño tuvo inclinación por la música bailable, siguiendo los pasos de su padre decide emprender camino dentro del mundo artístico, durante el año 1993 ingresa a las filas de la orquesta musical “La Misma Nota” reconocida banda a nivel nacional, donde logro obtener el galardón como, Solista Revelación del Año ganando el Mara de Oro, en ese mismo año reciben la Orquídea de Oro uno de los premios más importantes de Venezuela con el tema Perdí mi Juramento¨.
-					</p>
-					<h4 style="	color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">Son de la Calle</h4>
-					<p>Año 1994 Gustavo Quintero se independiza y formar la orquesta “Son de la Calle” homenajeando así a su padre Willy Quintero conocido guarachero zuliano y cantante de las orquesta más importante de la música tropical (Los melódicos, Super Combo Los Tropicales y La Playa) intérprete de  temas como “La Mecedora”, “La Cumbiamberita”, “La Banda Borracha”, y su éxito mundialmente reconocido “Carmen se me perdió la cadenita”, Gustavo decide grabar una canción llamada “Rico Jalaito” y se convierte en toda una novedad recibiendo el aplauso de todos los bailadores en Colombia y Venezuela.  
-					</p>
+				<h2 style="font-weight: 800;margin-top: 35px;color: #CCA418; font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">GUSTAVO QUINTERO</h2>
+				<p>Singer and composer, is one of the most emblematic musical artists in Venezuela andthe creator of the genre Urban Cumbia. It’s, as he describes, a perfect fusion of the good cumbia with the Afro-Caribbean instruments along with urban sounds.</p>
+				<p>The Tropical music flavor runs through his veins and since very little he had a preference for the danceable music and following his father’s steps, he decides to get on the artistic world. During 1991, he got in the musical orchestra “La Misma Nota”, a band nationally recognized where he obtained the award as the Solo Revelation of the Year winning the <b>Golden Mara</b> and received on the same year the Golden Orchid, one of the most important awards in Venezuela, for the song <b>“Perdí mi Juramento”</b>.</p>
 
-					<p>Durante ese mismo año es invitado por el sello Disquero colombiano Discos Fuentes para grabar una producción titulada “Homenaje a mi padre”, junto a su padre obtuvieron el honor y orgullo de grabar varios temas los cuales se convirtieron en un éxito total en ambos países, en gira binacional tuvieron el gusto de poder compartir tarima junto a los más grandes del género como “La Super Banda de Venezuela Guaco” ,Gilberto Santa Rosa, Olga Tanon, Los Melódicos, Oscar D’ León, entre otros.  
-					</p>
+				<h4 style="	color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">To the sound of the Folk music</h4>
 
-					<p>Gustavo trae la Cumbia Colombiana-Mexicana, con un toque de pop y unos sonidos electrónicos que adornan cada una de sus canciones, por más de 20 años ha llenado de alegría a mucha gente en Venezuela, Colombia, Perú, Guatemala, entre otros, donde se pasean por éxitos y cover inspirados en los grandes artistas como Selena Quintanilla, Marco Antonio Solís y La Sonora Dinamita, que han sabido mostrar su calidad en cada uno de los escenarios que se presenta. 
-					</p>
+				<p>The folk music is a Venezuelan rhythm from the region of Zulia and is characterized by having a formal chorus-verse structure and Gustavo Quintero has been participating on emblematic groups of folk music in Venezuela for about 10 years (Cardenales del Éxito, Gran Coquivacoa, and Pillopo), being on thousands of stages infecting the dancer asthe soloist of these groups filing them with flavor and music.</p>
 
-					<p>En el año 2010 graba un sencillo para Discos Fuentes, que se titula ¨Dame un Chin Chin¨ y se convierte en otro éxito en toda Venezuela. Al mismo tiempo es invitado a participar en el Amanecer de Feria más importante de ese mismo pais,  el 17 de noviembre en un prestigioso hotel de Maracaibo al lado del Binomio de Oro, Adolescentes, Las Chicas del Can, Oscar D León y Los Blanco, en el año 2012 graba otro éxito llamado Que lo diga ella¨ y también llega a todo el país convirtiéndose en otro éxito, el año 2013 se convirtió en un año de reconocimientos puesto que recibió galardones entre ellos los más destacados; El Águila de Venezuela y Zuliano de Platino como Artista Revelación del año, Mara Internacional 2013 como Artista Internacional del Año.  
-					</p>
-					<h4 style="color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">Nuevos Mercados</h4>
-					<img  class="img-right"  src="<?php echo base_url("lib/images/profile/DSC02104.JPG") ?>" alt="">
-					<p> En el 2014 decide ampliar su mercado para continuar brindando música con sabor tropical urbanos y es cuando recibe la invitación para para producir su producir su disco de Cumbia Tex-Mex bajo la producción del maestro Rey Casas, Gilberto Ferrer y Ronald Guerra donde logra obtener la estrella de Venezuela como artista Revelación del año 2015.
-					</p>
+				<h4 style="	color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">Son de la Calle</h4>
+				<p>On 1995, Gustavo Quintero became independent and founded the orchestra <b>“Son de la Calle”</b> along other artists of the same genre, managing to monopolize all the stations and parties with their presentations with their hits. He decides to record a song called “Rico Jalaito” and it’s a huge hit acclaimed by every dancer in Colombia and Venezuela.</p>
 
-					<h4 style="color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">Latín Grammy</h4>
-					<p>Durante el año 2015 Gustavo Quintero tuvo el honor de recibir de parte de la Academia Latina de la Música el reconocimiento a dos de los temas (Cover Tributo a Selena y No Cabe Duda) de su álbum “Que Vuelva” donde logro estar en la competencia con artista de reconocida trayectoria musical. 
-					</p>
+				<p>During the same year, he is invited by the Colombian label <b>Discos Fuentes</b> to record a production titled <b>“Homenaje a mi padre”</b> along with his father Willy Quintero, obtaining the honor and pride of recording songs that were a huge success in both countries. They could happily share stage on their tour in both countries with the biggest stars of the genre such as “The Super Band of Venezuela Guaco”, Gilberto Santa Rosa, Olga Tañón, Los Melódicos, Oscar D’ León and others.</p>
 
-					<h4 style="	color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">“Que Vuelva”</h4>
+				<p>On 2010, he recorded a single for <b>Discos Fuentes</b> titled <b>“Dame un Chin Chin”</b>, a song that opened doors in the Colombian market and allowed him to go to the main stages in that country. On 2013 was a year of recognition, for the received awards such as The Eagle of Venezuela and Platinum Zuliano as the Revelation Artist of the Year, Mara International 2013 as International Artist of the Year.</p>
 
-					<p>Es el nombre de su primer álbum discográfico, en este disco puedes disfrutar de 12 temas musicales que te harán bailar con solo escucharlos;  tiene la participación de tres grandes artistas Oscar D’ León con quien compartió escenario y decidió hacer un cover del tema original de su padre Willy Quintero “Carmen se me perdió la cadenita” pueden disfrutar del video de este maravilloso tema en este <a href="https://youtu.be/deHt_hYqEnU">link</a> , posteriormente invita a Beatriz Solís a grabar la canción “Que vuelva”, autoría de Marco Antonio Solís, dentro de este Disco denominado “Que Vuelva”, logra tener una tercera participación de un tercer invitado y en esta oportunidad se trata de su hija Sofia Quintero quien descubre su amor por la música al lado de su padre con quien decide grabar el tema “Hoy” del maestro Jean Marcos en homenaje a Gloria Estefan; pueden disfrutar de este maravilloso tema ingresando en este <a href="https://youtu.be/xXE4r6S5o9o">link</a> Para un total de 12 temas y 3 artistas invitados de primerísima talla internacional.
-					</p>
+				<h4 style="color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">Innovation</h4>
+				<img  class="img-right"  src="<?php echo base_url("lib/images/profile/DSC02104.JPG") ?>" alt="">
+				<p>Gustavo created the fusion of the Urban Cumbia with a touch of pop and Urban synthesizers that decorate every song. Today, it’s been more than 20 years transmitting his music to his followers in Venezuela, Colombia, Peru, Guatemala and Dominican Republic with songs such as “Estoy Enamorado” (2013), “No Cabe Duda” (2014), “Tributo a Selena” (2015), some of the most played in that season.</p>
 
-					<p>Actualmente El Rey de La Cumbia Urbana continúa trabajando arduamente para llegar a más y más mercados con la internacionalización de su más recientes temas musicales, sigue dando pasos importantes y firma la distribución de su material discográfico de la mano de J&N RECORD sello Disquero que lo recibe para apoyarlo en su proyecto musical. 
-					</p>
+				<h4 style="color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">The New Market</h4>
+				<p>It’s 2015 and as the market demands, the King of the Urban Cumbia is invited to expand his music on the American market and he decides to expand his repertoire to continue sharing his music with an urban tropical flavor, receiving the invitation to compose under the production of the maestro Rey Casas, Gilberto Ferrer and Ronald Guerra, where he managed to obtain a star of Venezuela as Revelation Artist of the Year on 2015.</p>
+
+				<h4 style="	color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">Latin Grammy</h4>
+
+				<p>EDuring that same year, as Gustavo was producing, he got the honor to receive the award from the Latin Academy of Music for two of the songs: <b>Cover Tributo a Selena</b> and <b>No Cabe Duda,</b>, from his album “Que vuelva”.</p>
+
+				<h4 style="	color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">“Que Vuelva”</h4>
+
+				<p>Is the name of his first album and you can enjoy 12 songs that will make you dance since the very first moment you listen to it: it has the participation of three big artist of international trajectory such as Oscar D’ León with whom he recorded the song <b>“La Cadenita”</b>, a cover of the original song by his father Willy Quintero <b>“Carmen se me perdió la cadenita”</b>. You can enjoy the music video of this marvelous song clicking on this <a href="https://youtu.be/deHt_hYqEnU">link</a>.</p>
+
+				<p>During a visit to the city of Los Angeles, he met Beatriz Solís, who invited him to produce the song <b>“Que Vuelva”</b>, which was originally recorded by the huge of Mexico: Marco Antonio Solís and by Beatriz Adriana. It’s a song that gives the name to his first album. This is the link to enjoy <a href="https://www.youtube.com/watch?v=pWzrxFR6-rc">this song</a>.</p>
+
+				<p>In that record called “Que Vuelva” he managed to get the participation of a third person and is his daughter Sofia Quintero, who discovered her love for music beside her father and decided to record the song <b>“Hoy”</b> by the maestro Jean Marcos to pay tribute to Gloria Estefan and you can enjoy this marvelous song clicking on this <a href="https://youtu.be/xXE4r6S5o9o">link</a>. There are 12 songs and 3 internationally huge artists invited.</p>
+					
+				<h4 style="	color: #CCA418;font-weight: 600;font-family: 'Shadows Into Light', cursive !important;">Year 2020</h4>
+
+				<p>In spite of the circumstances and the difficult times that we lived around the world due to the COVID-19 pandemic, Gustavo Quintero remained refuged inside his home with his family and he discovered in quarantine what turned into his new passion and, without noticing, he started to compose songs inspired in his own experiences, writing <b>“Siento”</b>, a song that’s the first single of his second album.</p>
+				
+				<div class="container mb-4 img-left mr-lg-2">
+					<div class="embed-responsive embed-responsive-16by9 ">
+						<iframe class="embed-responsive-item " src="https://www.youtube.com/embed/MGfFdeAkkg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+
+
+
+				<h4 style="	color: #CCA418;letter-spacing:1.2px;">
+					<a href="https://es.m.wikipedia.org/wiki/Arturo_Sandoval" style="font-weight: 600; font-family: 'Shadows Into Light' !important;color: #CCA418; " data-toggle="tooltip" data-placement="top" title="Visit https://es.m.wikipedia.org/wiki/Arturo_Sandoval" >Arturo Sandoval</a>
+				</h4>
+
+				<p>For many years, Gustavo admired the talent of the maestro Sandoval, who has been catalogued as the best Trumpet of the World and without even thinking, he offered this musical jewel to him to accompany him in a Trumpet solo, adding his touch to the song. You can enjoy his work through every digital platform.</p>
+				
+				<p>The King of Urban Cumbia is currently working hard to get on more market fields with the internationalization of his most recent songs, keeps taking important steps and, he signed the distribution of his discographic material and as a composer this year along <b>J&amp;N RECORD</b>, a label that receives him to supporting him and helps him expand his urban cumbia to get on more stages.</p>
+
+				<p>Gustavo continues working and we will know about his next collaborations soon, but we can let you know that new guests from many genres will come and also there will be the participation of two distinguished singers of merengue and bachata.</p>
+				
+				<p>You can now listen to his songs on all digital platforms and enjoy his videos on his YouTube channel: Gustavo Cumbia Urbana. You can also follow him on social media as @GustavoCumbiaUrbana and visit his website www.GustavoCumbiaUrbana.com</p>
 
 			</div>
 		</div>
 	</div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
 <?php $this->load->view('ingles/includes/footer_scripts_view'); ?>
+<script >
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
 <?php $this->load->view('ingles/includes/footer_tags_view'); ?>

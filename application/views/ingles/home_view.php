@@ -1,6 +1,8 @@
 <?php $this->load->view('ingles/includes/header_view.php'); ?>
 <?php $this->load->view('ingles/includes/header_menu.php'); ?>
-<audio autoplay autobuffer src="<?php echo base_url("lib/audio/que-vuelva.mpeg"); ?>"  ></audio> 
+<audio autoplay autobuffer  >
+	<source src="<?php echo base_url("lib/audio/siento.mp3"); ?>"  type="audio/mpeg">
+</audio> 
 <section class="principal home">
 	<div class="container-fluid image-change">
 		<div class="row">
