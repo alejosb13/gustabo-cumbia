@@ -130,6 +130,7 @@ class Welcome extends CI_Controller {
 			base_url("vendor/fancybox/jquery.fancybox.min.js")
 		); 
 
+		$data["siento"]			 = $this->album_data_direct_name("lib/images/siento/",scandir("lib/images/siento/"));
 		$data["radio"]			 = $this->album_data_direct_name("lib/images/radio/",scandir("lib/images/radio/"));
 		$data["television"]	 	 = $this->album_data_direct_name("lib/images/television/",scandir("lib/images/television/"));
 		$data["varias"]	 		 = $this->album_data_direct_name("lib/images/varias/",scandir("lib/images/varias/"));
