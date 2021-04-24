@@ -8,7 +8,7 @@
 	<div class="row m-0 pt-4 ">
 		<div class="col-md-4 mb-4">
 			<div class="padre-disc">
-				<img class="img-fluid m-auto siento" style=" cursor: pointer;" src="<?php echo base_url("lib/images/radio/Bailando con Gustavo Quintero Radio Picardia 69.9 Fm Los Angeles.jpg"); ?>" alt="">
+				<img class="img-fluid m-auto siento" style=" cursor: pointer;" src="<?php echo base_url("lib/images/siento/Detrás de camaras.jpeg"); ?>" alt="">
 				<div class="wrapper-disc" >
 					<div class="icon"></div>
 					<span class="texto siento" style="font-weight: 800;margin-top: 10px;display: block;color: #CCA418;font-family: 'Shadows Into Light', cursive !important;text-align: center;font-size: 18px;padding: 0px 20px; cursor: pointer;" >Siento</span>

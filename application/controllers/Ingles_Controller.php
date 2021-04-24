@@ -120,11 +120,12 @@ class Ingles_Controller extends CI_Controller {
 			base_url("vendor/fancybox/jquery.fancybox.min.js")
 		); 
 
+		$data["siento"]			 = $this->album_data_direct_name("lib/images/siento/",scandir("lib/images/siento/"));
 		$data["radio"]			 = $this->album_data_direct_name("lib/images/radio/",scandir("lib/images/radio/"));
 		$data["television"]	 	 = $this->album_data_direct_name("lib/images/television/",scandir("lib/images/television/"));
 		$data["varias"]	 		 = $this->album_data_direct_name("lib/images/varias/",scandir("lib/images/varias/"));
 		$data["algunas_foticos"] = $this->album_data_direct_name("lib/images/algunas_foticos/",scandir("lib/images/algunas_foticos/"),FALSE);
-		$data["videos_varios"] 	 = $this->album_data_direct_name("lib/videos/varios/",scandir("lib/videos/varios/"));
+		$data["videos_varios"] 	= $this->album_data_direct_name("lib/videos/varios/",scandir("lib/videos/varios/"));
 
 		$this->load->view('ingles/galeria_view',$data);
 	}

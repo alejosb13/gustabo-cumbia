@@ -5,7 +5,8 @@ div#content {
 .fancybox-button[disabled], .fancybox-button[disabled]:hover {
     display: none;
 }
-img.img-fluid.m-auto.radio {
+img.img-fluid.m-auto.radio,
+img.img-fluid.m-auto.siento {
     width: 100%;
     max-width: 240px;
     display: block;
