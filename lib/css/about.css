@@ -11,7 +11,9 @@ div#content {
 	text-align: justify;
 	color: #fff;
 }
-
+.text-info-conten b {
+    color: #e0b226;
+}
 .text-info-conten {
     padding: 0px;
 }
