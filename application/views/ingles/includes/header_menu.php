@@ -65,9 +65,9 @@
 				<a class="leng" href="<?php echo base_url("/eng"); ?>">EN</a>
 			</div>
 			<div class="cont-redes">
-				<a href="https://www.facebook.com/gustavocumbiaurbana/"><img src="<?php echo base_url()."lib/images/iconos/facebook.png"; ?>" alt=""></a>
-				<a href="https://www.instagram.com/gustavocumbiaurbana/"><img src="<?php echo base_url()."lib/images/iconos/instagram.png"; ?>" alt=""></a>
-				<a href="mailto:gustavocumbiaurbana@gmail.com"><img src="<?php echo base_url()."lib/images/iconos/email.png"; ?>" alt=""></a>
+				<a target="_blank" href="https://www.facebook.com/gustavocumbiaurbana/"><img src="<?php echo base_url()."lib/images/iconos/facebook.png"; ?>" alt=""></a>
+				<a target="_blank" href="https://www.instagram.com/gustavocumbiaurbana/"><img src="<?php echo base_url()."lib/images/iconos/instagram.png"; ?>" alt=""></a>
+				<a target="_blank" href="mailto:gustavocumbiaurbana@gmail.com"><img src="<?php echo base_url()."lib/images/iconos/email.png"; ?>" alt=""></a>
 			</div>
 		</div>
 	</nav>

@@ -10,31 +10,31 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/bootstrap/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 	<!--     <link rel="stylesheet" href="<?php // echo base_url(); 
-																				?>lib/css/fonts.css"> -->
+											?>lib/css/fonts.css"> -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>lib/css/master.css">
-	
-	<?php if(isset($css)): ?>
-		<?php foreach($css as $val): ?>
+
+	<?php if (isset($css)) : ?>
+		<?php foreach ($css as $val) : ?>
 			<link rel="stylesheet" href="<?php echo $val; ?>">
 		<?php endforeach; ?>
 	<?php endif; ?>
 
-<!-- Facebook Pixel Code -->
-<!-- <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2587924498187807');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2587924498187807&ev=PageView&noscript=1"
-/></noscript> -->
-<!-- End Facebook Pixel Code -->
-
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '313900923577661'); 
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=313900923577661&ev=PageView&noscript=1"/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+</head>
 <body>
