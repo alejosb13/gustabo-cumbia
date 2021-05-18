@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="facebook-domain-verification" content="c4drn4sm8tw2mhcqdb4d1xhgeqvp98" />
 	<link rel="icon" href="<?php echo base_url(); ?>lib/images/logo.ico" type="image/x-icon">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>vendor/bootstrap/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
@@ -39,7 +40,6 @@
 	</noscript>
 	<!-- End Facebook Pixel Code -->
 
-	<script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"9d45829279d13443ee36c6709396eb7e"})});</script>
 </head>
 
 
