@@ -54,10 +54,12 @@
  * NOTE: If you change these, also change the error_reporting() code below
  */
 	$environment = array(
-		'[::1]'             => 'localhost',
-		'localhost'         => 'localhost',
-		'localhost:8888'    => 'localhost',
-		'www.localhost'     => 'localhost'
+		'[::1]'             			=> 'localhost',
+		'localhost'         			=> 'localhost',
+		'localhost:8888'    			=> 'localhost',
+		'www.localhost'     			=> 'localhost',
+		'http://gustabo-cumbia.test'    => 'localhost',
+		'gustabo-cumbia.test'     		=> 'localhost',
 
 	);
 	
