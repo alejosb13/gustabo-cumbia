@@ -1,0 +1,33 @@
+div#content {
+    background: #221f22;
+}
+.cont-img {
+    max-width: 74px;
+    margin-right: 65px;
+}
+.cont-img:last-child {
+	margin-right: 0px;
+}
+.padre-m{
+	display: flex;
+	justify-content: center;
+	max-width: 600px;
+	flex-wrap: wrap;
+	align-items: center;
+	/* height: 80vh; */
+}
+.respon-iframe{
+	width: 100%;
+	min-height: 350px;
+	margin-bottom: 25px;
+}
+
+@media (max-width: 549px) {
+	.padre-m{
+		flex-direction: column;	
+	}
+
+	.cont-img {
+		margin: 0px 0px 40px 0px !important;
+	}
+}
