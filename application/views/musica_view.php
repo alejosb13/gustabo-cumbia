@@ -7,7 +7,7 @@
 		<p style="font-weight: 400;margin-top: 15px;color:#fff;">Siguenos en nustros diferentes portales y disfruta de mas contenidos.</p>
 	</div>
 	<br>
-	<div class="container padre-m" >
+	<div class="container padre-m">
 		<a href="https://music.apple.com/us/album/que-vuelva/1497811493?l=es" class="cont-img">
 			<img class="img-center img-thumbnail mx-auto d-block mr-3 imgh-i" src="<?php echo base_url("lib/images/iconos/itunes.png") ?>" alt="">
 		</a>
@@ -24,29 +24,48 @@
 	<br><br>
 	<div class="col-md-12">
 		<h2 style="font-weight: 800;margin-top: 35px;font-family: 'Shadows Into Light', cursive !important;color: #CCA418;">Videos</h2>
-<!-- 		<p style="font-weight: 400;margin-top: 15px;">Siguenos en nustros diferentes portales y disfruta de mas contenidos.</p> -->
+		<!-- 		<p style="font-weight: 400;margin-top: 15px;">Siguenos en nustros diferentes portales y disfruta de mas contenidos.</p> -->
 	</div>
 	<br>
-	<div class="container" >
-		
-		<div class="row justify-content-center">
-			<div class="col-md-7">
-				<iframe class="respon-iframe"  width="560" height="315" src="https://www.youtube.com/embed/iLYwc169fPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="container">
+		<div class="row justify-content-center mb-5">
+			<div class="col-md-7 text-center p-4" style="background:#f9f9f9; border-radius:15px;">
+				<!-- Texto grande tipo noticia -->
+				<h3 style="font-size:48px; font-weight:bold; margin-bottom:20px; text-transform:uppercase;font-family: 'Shadows Into Light', cursive !important;color: #CCA418;">
+					¡PRÓXIMAMENTE!
+				</h3>
+
+				<h4 style="font-weight:bold; color:#333;">
+					El último lanzamiento de Gustavo estará muy pronto disponible.
+					<br>
+					<br>
+					<small style="display:block; color:#666; font-size:16px;">
+						Un tributo a Roberto Carlos
+					</small>
+				</h4>
+				<p style="font-size:20px; color:#444; margin-top:20px;">
+					Se estrenará dentro de <strong><?php echo $dias_faltantes; ?></strong> día.
+				</p>
 			</div>
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-md-7">
-				<iframe class="respon-iframe"  width="560" height="315" src="https://www.youtube.com/embed/delj75yjVLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe class="respon-iframe" width="560" height="315" src="https://www.youtube.com/embed/iLYwc169fPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-md-7">
-				<iframe class="respon-iframe"  width="560" height="315" src="https://www.youtube.com/embed/rqSiNswG170" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe class="respon-iframe" width="560" height="315" src="https://www.youtube.com/embed/delj75yjVLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-md-7">
-				<iframe class="respon-iframe"  width="560" height="315" src="https://www.youtube.com/embed/zMr9J-GmcRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe class="respon-iframe" width="560" height="315" src="https://www.youtube.com/embed/rqSiNswG170" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-7">
+				<iframe class="respon-iframe" width="560" height="315" src="https://www.youtube.com/embed/zMr9J-GmcRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="row justify-content-center">
@@ -82,35 +101,31 @@
 
 <?php $this->load->view('includes/footer_scripts_view'); ?>
 <script>
-	$(document).ready(function () {
-		$(".imgh-i").hover(function () {
-				$(this).attr("src",BASE_URL+"lib/images/iconos/itunes-h.png")
-			}, function () {
-				$(this).attr("src",BASE_URL+"lib/images/iconos/itunes.png")
-				// out
-			}
-		);
-		$(".imgh-a").hover(function () {
-				$(this).attr("src",BASE_URL+"lib/images/iconos/amusic-h.png")
-			}, function () {
-				$(this).attr("src",BASE_URL+"lib/images/iconos/amusic.png")
-				// out
-			}
-		);
-		$(".imgh-s").hover(function () {
-				$(this).attr("src",BASE_URL+"lib/images/iconos/spotify-h.png")
-			}, function () {
-				$(this).attr("src",BASE_URL+"lib/images/iconos/spotify.png")
-				// out
-			}
-		);
-		$(".imgh-y").hover(function () {
-				$(this).attr("src",BASE_URL+"lib/images/iconos/youtube-h.png")
-			}, function () {
-				$(this).attr("src",BASE_URL+"lib/images/iconos/youtube.png")
-				// out
-			}
-		);
+	$(document).ready(function() {
+		$(".imgh-i").hover(function() {
+			$(this).attr("src", BASE_URL + "lib/images/iconos/itunes-h.png")
+		}, function() {
+			$(this).attr("src", BASE_URL + "lib/images/iconos/itunes.png")
+			// out
+		});
+		$(".imgh-a").hover(function() {
+			$(this).attr("src", BASE_URL + "lib/images/iconos/amusic-h.png")
+		}, function() {
+			$(this).attr("src", BASE_URL + "lib/images/iconos/amusic.png")
+			// out
+		});
+		$(".imgh-s").hover(function() {
+			$(this).attr("src", BASE_URL + "lib/images/iconos/spotify-h.png")
+		}, function() {
+			$(this).attr("src", BASE_URL + "lib/images/iconos/spotify.png")
+			// out
+		});
+		$(".imgh-y").hover(function() {
+			$(this).attr("src", BASE_URL + "lib/images/iconos/youtube-h.png")
+		}, function() {
+			$(this).attr("src", BASE_URL + "lib/images/iconos/youtube.png")
+			// out
+		});
 	});
 </script>
 <?php $this->load->view('includes/footer_tags_view'); ?>

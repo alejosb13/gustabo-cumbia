@@ -1,6 +1,107 @@
-.interna * {
-    font-family: Futura !important;
+p,
+span,
+div {
+	font-family: Futura !important;
 }
 .interna p {
-    font-size: 16px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+}
+.interna p strong,
+.interna p a {
+	font-weight: 900;
+	color: #cca418;
+}
+
+div#content {
+	background: #221f22;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #cca418;
+	font-family: "Shadows Into Light", cursive !important;
+	font-weight: 900;
+}
+
+.px-7 {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+h1.px-7,
+h2.px-7,
+h3.px-7,
+h4.px-7,
+h5.px-7,
+h6.px-7 {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.content-article {
+	/* display: flex; */
+
+	/* min-height: 80px; */
+	/* max-width: 262px; */
+	/* max-height: 253px; */
+	/* overflow: hidden; */
+}
+
+.content-article .img-left {
+	width: 100%;
+	/* object-fit: cover;
+	object-position: center center; */
+	float: left;
+	max-width: 470px;
+	margin: 0px 20px 15px 0px;
+}
+
+.content-article .img-right {
+	width: 100%;
+	/* object-fit: cover;
+	object-position: center center; */
+	float: right;
+	max-width: 29.375rem;
+	margin: 0px 20px 15px 0px;
+}
+
+.respon-iframe {
+	width: 100%;
+	min-height: 350px;
+	margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+	.content-article .img-left {
+		width: 350px;
+	}
+
+	.content-article .img-right {
+		width: 350px;
+	}
+}
+
+@media (max-width: 550px) {
+	h2 {
+		font-size: 1.6rem;
+	}
+	.content-article .img-left {
+		width: 100%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.content-article .img-right {
+		width: 100%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
