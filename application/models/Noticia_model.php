@@ -13,10 +13,14 @@ class Noticia_model extends CI_Model
 
     public function getAllNews()
     {
-        $query = $this->db->get_where('noticias', array('status' => 1));
+        $query = $this->db
+            ->where('status', 1)
+            ->order_by('fecha_publicacion', 'DESC')
+            ->get('noticias');
 
         return $query->result();
     }
+
 
     public function getNewById($id)
     {

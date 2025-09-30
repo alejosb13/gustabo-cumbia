@@ -28,24 +28,29 @@
 	</div>
 	<br>
 	<div class="container">
-		<div class="row justify-content-center mb-5">
-			<div class="col-md-7 text-center p-4" style="background:#f9f9f9; border-radius:15px;">
-				<!-- Texto grande tipo noticia -->
-				<h3 style="font-size:48px; font-weight:bold; margin-bottom:20px; text-transform:uppercase;font-family: 'Shadows Into Light', cursive !important;color: #CCA418;">
-					¡PRÓXIMAMENTE!
-				</h3>
+		<!--<div class="row justify-content-center mb-5">-->
+		<!--	<div class="col-md-7 text-center p-4" style="background:#f9f9f9; border-radius:15px;">-->
+		<!-- Texto grande tipo noticia -->
+		<!--		<h3 style="font-size:48px; font-weight:bold; margin-bottom:20px; text-transform:uppercase;font-family: 'Shadows Into Light', cursive !important;color: #CCA418;">-->
+		<!--			¡PRÓXIMAMENTE!-->
+		<!--		</h3>-->
 
-				<h4 style="font-weight:bold; color:#333;">
-					El último lanzamiento de Gustavo estará muy pronto disponible.
-					<br>
-					<br>
-					<small style="display:block; color:#666; font-size:16px;">
-						Un tributo a Roberto Carlos
-					</small>
-				</h4>
-				<p style="font-size:20px; color:#444; margin-top:20px;">
-					Se estrenará dentro de <strong><?php echo $dias_faltantes; ?></strong> día.
-				</p>
+		<!--		<h4 style="font-weight:bold; color:#333;">-->
+		<!--			El último lanzamiento de Gustavo estará muy pronto disponible.-->
+		<!--			<br>-->
+		<!--			<br>-->
+		<!--			<small style="display:block; color:#666; font-size:16px;">-->
+		<!--				Un tributo a Roberto Carlos-->
+		<!--			</small>-->
+		<!--		</h4>-->
+		<!--		<p style="font-size:20px; color:#444; margin-top:20px;">-->
+		<!--			Se estrenará dentro de <strong><?php echo $dias_faltantes; ?></strong> día.-->
+		<!--		</p>-->
+		<!--	</div>-->
+		<!--</div>-->
+		<div class="row justify-content-center">
+			<div class="col-md-7">
+				<iframe class="respon-iframe" width="560" height="315" src="https://www.youtube.com/embed/rNwl9yBibpo?si=iGZnBXwkxvFv9waD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="row justify-content-center">
