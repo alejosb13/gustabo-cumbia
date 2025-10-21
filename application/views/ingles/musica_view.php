@@ -28,9 +28,9 @@
 	</div>
 	<br>
 	<div class="container">
-		<div class="row justify-content-center mb-5">
+		<!-- <div class="row justify-content-center mb-5">
 			<div class="col-md-7 text-center p-4" style="background:#f9f9f9; border-radius:15px;">
-				<!-- Big headline -->
+	
 				<h3 style="font-size:48px; font-weight:bold; margin-bottom:20px; text-transform:uppercase; font-family: 'Shadows Into Light', cursive !important; color: #CCA418;">
 					COMING SOON!
 				</h3>
@@ -47,11 +47,15 @@
 					It will be released in
 					<strong>
 						<?php
-						// Simple plural logic
 						echo $dias_faltantes . ' ' . ($dias_faltantes == 1 ? 'day' : 'days');
 						?>
 					</strong>.
 				</p>
+			</div>
+		</div> -->
+		<div class="row justify-content-center">
+			<div class="col-md-7">
+				<iframe class="respon-iframe" width="560" height="315" src="https://www.youtube.com/embed/rNwl9yBibpo?si=iGZnBXwkxvFv9waD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="row justify-content-center">

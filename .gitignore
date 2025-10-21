@@ -114,3 +114,4 @@ fabric.properties
 ## Data local ##
 application/config/production/*
 .htaccess
+node_modules

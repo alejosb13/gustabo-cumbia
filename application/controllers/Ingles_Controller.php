@@ -125,12 +125,12 @@ class Ingles_Controller extends CI_Controller
 		$data = array();
 		$data["section"] = "Galeria";
 		$data["css"] = array(
-			base_url("vendor/fancybox/jquery.fancybox.min.css"),
+			base_url("node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css"),
 			base_url("lib/css/galeria.css")
 		);
 
 		$data["js"] = array(
-			base_url("vendor/fancybox/jquery.fancybox.min.js")
+			base_url("node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js")
 		);
 
 		$data["siento"]			 = $this->album_data_direct_name("lib/images/siento/", scandir("lib/images/siento/"));
